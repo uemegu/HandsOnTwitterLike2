@@ -109,9 +109,6 @@ Firebaseのコンソールからプロジェクトを開き、`Authentication`�
 
 これでGoogleアカウントのログインが有効になりました。
 
-![](images/11.png)
-<br><br>
-
 クライアント側の実装は既に終わってるので、実際に試してみましょう。
 
 `firebase serve`で起動し、localhost:5000を開いてください。
@@ -144,6 +141,8 @@ Firebaseのコンソールからプロジェクトを開き、`Authentication`�
 これでGoogle認証が通るようになるはずなので、もう１度Googleボタンをクリックしてみてください。
 
 ログインするとTweet内容が表示されます。
+
+また、Firebaseプロジェクトの`Authentication`の画面を見ると、ユーザーが追加されていることが確認できます。
 
 <br><br>
 
