@@ -3,14 +3,20 @@
 ## はじめに
 
 これはサーバーレスなPWAアプリを作るハンズオンのためのプロジェクトで、2回目に実施するハンズオンです。
+
 1回目のハンズオンは以下になります。
+
 https://github.com/uemegu/HandsOnTwitterLike1
+
+<br><br>
 
 ## 対象レベル
 
 - HTML/CSS -- 読める（事前準備済み）
 - JavaScript -- ES6が読める、調べながら書ける（ほぼ事前準備済み）
 - Firebase -- サーバーレスについて意味を知っている
+
+<br><br>
 
 ## 目標
 
@@ -31,17 +37,19 @@ https://github.com/uemegu/HandsOnTwitterLike1
 **キーワード**：検討中（2時間じゃ無理なので全部準備？）<br>
 **所要時間**：2時間<br><br>
 
-
+<br><br>
 
 ## 事前準備
 
 - 前回のハンズオンが終わっていること
 
-## ハンズオン
+<br><br>
 
+## ハンズオン
 
 前回作ったプロジェクトのフォルダ内で作業を続行します。
 
+<br><br>
 
 ### FireStoreの認証の設定
 
@@ -58,6 +66,9 @@ allow read, write: if request.auth.uid != null;
 この設定を反映させるために `firebase deploy --only firestore:rules` を実行しましょう。
 
 
+<br><br>
+
+
 ### クライアント側の準備
 
 実装は既に済ませてあります。
@@ -69,6 +80,9 @@ allow read, write: if request.auth.uid != null;
 また、`secondStep.html`のFCM実装部分はコメントアウトしてますので、必要な場合はコメントアウトを消して、`鍵をここに書く`の部分を書いてください。
 
 JavaScriptの変更点には☆マークでコメントを付けてます。
+
+<br><br>
+
 
 ### Authenticationの設定
 
@@ -124,6 +138,9 @@ Firebaseのコンソールからプロジェクトを開き、`Authentication`�
 
 ログインするとTweet内容が表示されます。
 
+<br><br>
+
+
 #### メール/パスワード認証
 
 次の認証方式に移るので、Twitterっぽいアプリの右上にある`SIGN OUT`ボタンをクリックしてサインアウトしてください。
@@ -157,6 +174,9 @@ SDK側でちゃんとチェックされてることがわかります。（た�
 
 また、一度サインアップすると次からは`SIGN IN`でログインできるようになります。
 再度同じメールアドレスでサインアップするとエラーになることも確認できます。
+<br><br>
+
+
 
 #### 永続性
 
@@ -167,6 +187,9 @@ SDK側でちゃんとチェックされてることがわかります。（た�
 詳しくは以下に情報あります。
 
 認証状態の永続性: https://firebase.google.com/docs/auth/web/auth-state-persistence?hl=ja
+
+<br><br>
+
 
 
 #### おまけ
