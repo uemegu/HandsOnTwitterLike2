@@ -13,7 +13,7 @@ https://github.com/uemegu/HandsOnTwitterLike1
 ## 対象レベル
 
 - HTML/CSS -- 読める（事前準備済み）
-- JavaScript -- ES6が読める、調べながら書ける（ほぼ事前準備済み）
+- JavaScript -- 読める、調べながら書ける（ほぼ事前準備済み）
 - Firebase -- サーバーレスについて意味を知っている
 
 <br><br>
